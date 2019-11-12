@@ -1,17 +1,24 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # proteins
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
-This package contains the `proteins` dataset and some utility functions
-related to protein analyses. It accompanies a workshop-style class that
-provides an introduction to the emerging field of Data Science in R,
-including data analysis and visualization, with a particular focus on
-its utility for biological insight.
+This package contains the `proteins` dataset and some utility functions related to protein analyses. It accompanies a workshop-style class that provides an introduction to the emerging field of Data Science in R, including data analysis and visualization, with a particular focus on its utility for biological insight.
 
 ## Installation
 
@@ -29,6 +36,7 @@ So in the meantime, use the development version from
 # install.packages("devtools")
 devtools::install_github("hirscheylab/proteins")
 ```
+
 
 ## Example
 
