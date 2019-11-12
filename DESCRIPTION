@@ -1,0 +1,31 @@
+Package: proteins
+Type: Package
+Title: Proteins Data Sets and Utility Functions
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Matthew",
+           family = "Hirschey",
+           role = c("aut", "cre"),
+           email = "matthew@hirschey.org",
+           comment = c(ORCID = "0000-0003-4541-5376")))
+Maintainer: Matthew Hirschey <matthew@hirschey.org>
+Description: This package contains some utility functions for data analysis and graphing, the 'proteins' data set, and some supporting materials for a course on data science.
+License: MIT + file LICENSE
+Depends: R (>= 3.1)
+Imports: 
+    utils,
+    dplyr, 
+    stringr
+Suggests: 
+    knitr,
+    rmarkdown,
+    tidyr,
+    readr,
+    spelling,
+    testthat (>= 2.1.0)
+VignetteBuilder: knitr
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/hirscheylab/proteins
+RoxygenNote: 6.1.1
+Language: en-US
