@@ -8,7 +8,7 @@
 #' @export
 #'
 #' @return A vector of boolean values showing matched strings
-#' @author Matthew Hirschey
+#' @author Matthew Hirschey, \email{matthew@@hirschey.org}
 
 find_motif <- function(data, string) {
   stringr::str_detect(data, as.character(string))

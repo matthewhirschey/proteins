@@ -11,6 +11,7 @@ knitr::opts_chunk$set(
   fig.path = "man/figures/README-",
   out.width = "100%"
 )
+library(tidyverse )
 ```
 
 # proteins
@@ -25,14 +26,14 @@ This package contains the `proteins` dataset and some utility functions related 
 You **cannot** yet install the released version of tidybiology from
 [CRAN](https://CRAN.R-project.org) with:
 
-``` r
+```{r eval=FALSE}
 install.packages("proteins")
 ```
 
 So in the meantime, use the development version from
 [GitHub](https://github.com/) with:
 
-``` r
+```{r eval=FALSE}
 # install.packages("devtools")
 devtools::install_github("hirscheylab/proteins")
 ```
@@ -42,7 +43,7 @@ devtools::install_github("hirscheylab/proteins")
 
 This is a basic example which shows you how to solve a common problem:
 
-``` r
+```{r}
 library(proteins)
 glimpse(proteins)
 ```
