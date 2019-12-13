@@ -13,7 +13,7 @@
 #'   \item{gene_name_alt}{Alternative gene names associated with entry}
 #'   \item{protein_name}{Protein name}
 #'   \item{protein_name_alt}{Alternative protein names associated with entry}
-#'   \item{sequence}{Primary amino acid sequencxe}
+#'   \item{sequence}{Primary amino acid sequence}
 #'   \item{length}{Number of amino acids}
 #'   \item{mass}{Molecular weight of protein}
 #'   }
