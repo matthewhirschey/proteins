@@ -7,6 +7,7 @@
 #' @param scale Whether the data is scaled or not
 #' @return A list containing the principal components and the ggplots of the score plot and the scree plot
 #' @author Matthew Huang
+#' @export
 
 protein_pca <- function(tidyData, components = 4, center = FALSE, scale = FALSE){
   Group <- PC1 <- PC2 <- Groups <- Principal_Component <- Percent_Variance_Explained <- NULL
