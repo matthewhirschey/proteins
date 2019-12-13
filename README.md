@@ -1,17 +1,16 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 # proteins
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-This package contains the `proteins` dataset and some utility functions
-related to protein analyses. It accompanies a workshop-style class that
-provides an introduction to the emerging field of Data Science in R,
-including data analysis and visualization, with a particular focus on
-its utility for biological insight.
+This package contains the `proteins` dataset and some developmental
+utility functions related to proteomic and protein analyses. The dataset
+accompanies a workshop-style class that provides an introduction to the
+emerging field of Data Science in R, including data analysis and
+visualization, with a particular focus on its utility for biological
+insight.
 
 ## Installation
 
