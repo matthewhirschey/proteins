@@ -14,4 +14,14 @@ proteins <- read_tsv(here::here("tmp", "uniprot-filtered-organism%3A%22Homo+sapi
 
 #run to generate csv; commented out due to size
 #write_csv(proteins, path = here::here("data-raw", "proteins.csv"))
-usethis::use_data(proteins, overwrite = TRUE, compress = 'xz')
+#usethis::use_data(proteins, overwrite = TRUE, compress = 'xz')
+#saveRDS(proteins, file = here::here("tmp", "proteins.Rds"))
+
+#rm(proteins)
+#proteins <- readRDS(file = here::here("tmp", "proteins.Rds"))
+
+# url <- "https://zenodo.org/record/4004152/files/proteins.Rds?download=1" #
+# tmp <- tempfile()
+# download.file(url, tmp)
+# proteins <- readRDS(tmp)
+
