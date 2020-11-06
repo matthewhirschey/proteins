@@ -16,17 +16,17 @@ Imports:
     utils,
     dplyr, 
     stringr, 
-    mixOmics, 
     ggplot2,
-    tibble, 
-    svDialogs
+    tibble
 Suggests: 
     knitr,
     rmarkdown,
     tidyr,
     readr,
     spelling,
-    testthat (>= 2.1.0)
+    testthat (>= 2.1.0), 
+    mixOmics, 
+    svDialogs
 VignetteBuilder: knitr
 Encoding: UTF-8
 LazyData: true
